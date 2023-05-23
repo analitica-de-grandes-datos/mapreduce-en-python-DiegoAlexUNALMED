@@ -1,7 +1,7 @@
 #
 # >>> Escriba el codigo del mapper a partir de este punto <<<
 #
-from operator import itemgetter
+
 import sys 
 if __name__ == "__main__":
     for line in sys.stdin:
