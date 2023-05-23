@@ -14,6 +14,7 @@ Pruebe el algoritmo con
 
 $ cat credit.csv | python mapper.py | sort | python reducer.py 
 
+MAPPER
 import sys
 
 if __name__ == "__main__":
@@ -22,6 +23,7 @@ if __name__ == "__main__":
         word = line.split(',')
         sys.stdout.write("{}\t1\n".format(word[2]))
 
+REDUCER
 import sys
 
 if __name__ == '__main__':
